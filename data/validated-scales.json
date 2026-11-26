@@ -1,0 +1,79 @@
+{
+  "checked": "2026-11-26",
+  "about": "Licence check of well-known validated relationship questionnaires. We include a scale's items in this repo only if its terms clearly allow anyone to republish, translate and use it, including commercially. None of the scales below met that bar on the check date, so we link to their sources instead of copying items. This is not legal advice; if you plan to use a scale, read its current terms or ask the authors.",
+  "scales": [
+    {
+      "name": "Couples Satisfaction Index (CSI-4, CSI-16, CSI-32)",
+      "authors": "Funk & Rogge (2007), Journal of Family Psychology, 21(4), 572-583",
+      "measures": "Relationship satisfaction",
+      "terms_found": "Copies of the authors' form state the scales are freely available for research and clinical use and that no further permission is needed. We could not open the authors' own page on the check date (old lab URL returns 404).",
+      "included": false,
+      "why": "Free for research and clinical use is not an open licence: it does not clearly cover republishing the items in a public repo, translating them, or use on a commercial site.",
+      "source": "https://doi.org/10.1037/0893-3200.21.4.572"
+    },
+    {
+      "name": "German Couple Satisfaction Index-4 (GCSI-4)",
+      "authors": "Körner & Gauglitz (2026), Personal Relationships, 33",
+      "measures": "Relationship satisfaction (German version of CSI-4)",
+      "terms_found": "The article is published under CC BY 4.0.",
+      "included": false,
+      "why": "The article's licence covers the paper. The items derive from the CSI, whose rights sit with its original authors, so the article licence does not clearly cover the items themselves.",
+      "source": "https://fis.uni-bamberg.de/handle/uniba/114944"
+    },
+    {
+      "name": "Experiences in Close Relationships - Revised (ECR-R)",
+      "authors": "Fraley, Waller & Brennan (2000), Journal of Personality and Social Psychology, 78, 350-365",
+      "measures": "Attachment-related anxiety and avoidance in close relationships",
+      "terms_found": "The author's lab page publishes the 36 items and scoring and invites copying them for research. No licence is stated. Third-party platforms describe free use for non-commercial research, with permission needed for commercial use.",
+      "included": false,
+      "why": "No stated licence; commonly described as free for non-commercial research only.",
+      "source": "https://labs.psychology.illinois.edu/~rcfraley/measures/ecrritems.htm"
+    },
+    {
+      "name": "ECR - Relationship Structures (ECR-RS)",
+      "authors": "Fraley, Heffernan, Vicary & Brumbaugh (2011), Psychological Assessment, 23, 615-625",
+      "measures": "Attachment in specific relationships (partner, mother, father, friend), 9 items",
+      "terms_found": "The author's lab page publishes the items and scoring. No licence is stated.",
+      "included": false,
+      "why": "No stated licence.",
+      "source": "https://labs.psychology.illinois.edu/~rcfraley/measures/relstructures.htm"
+    },
+    {
+      "name": "Relationship Assessment Scale (RAS)",
+      "authors": "Hendrick (1988), Journal of Marriage and the Family, 50, 93-98",
+      "measures": "General relationship satisfaction, 7 items",
+      "terms_found": "No free-use statement from the author found. A Child Trends compilation that includes it says the measures should not be reproduced without the authors' permission.",
+      "included": false,
+      "why": "Permission required.",
+      "source": "https://doi.org/10.2307/352430"
+    },
+    {
+      "name": "Multidimensional Quality of Relationship Scale (M-QoRS)",
+      "authors": "Witney et al.",
+      "measures": "Several dimensions of relationship quality",
+      "terms_found": "The validation paper is published under CC BY-NC-ND 4.0.",
+      "included": false,
+      "why": "NC forbids commercial use and ND forbids derivatives, which includes translations.",
+      "source": "https://discovery.ucl.ac.uk/id/eprint/10209816/"
+    },
+    {
+      "name": "Dyadic Adjustment Scale (DAS)",
+      "authors": "Spanier (1976)",
+      "measures": "Relationship adjustment",
+      "terms_found": "Distributed commercially by a test publisher; use requires permission or purchase.",
+      "included": false,
+      "why": "Commercial, permission required.",
+      "source": "https://doi.org/10.2307/350547"
+    },
+    {
+      "name": "Gottman Institute questionnaires (Sound Relationship House, Love Maps, etc.)",
+      "authors": "The Gottman Institute",
+      "measures": "Various relationship areas",
+      "terms_found": "Proprietary; used in their paid programs and the Gottman Relationship Checkup.",
+      "included": false,
+      "why": "Proprietary.",
+      "source": "https://www.gottman.com"
+    }
+  ],
+  "also_excluded_by_policy": "Clinical screening scales (for example PHQ-9, GAD-7) and personality typologies (for example MBTI, a trademark) are out of scope: this repo measures relationships, not the psyche."
+}

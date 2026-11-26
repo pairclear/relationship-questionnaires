@@ -1,0 +1,47 @@
+{
+  "id": "relationship-clarity",
+  "version": "1.0",
+  "title": {"en": "Are we together or not? Relationship clarity", "ru": "Мы вместе или нет? Ясность в отношениях"},
+  "intro": {
+    "en": "For a 'situationship': you meet, maybe sleep together, but nobody has said what it is. These questions look at how much is clear between you and how the uncertainty sits with you.",
+    "ru": "Для «неопределённых отношений»: вы встречаетесь, может быть, спите вместе, но никто не сказал, что это. Вопросы о том, сколько между вами ясности и как тебе с неопределённостью."
+  },
+  "timeframe": {"en": "since you started seeing each other", "ru": "с тех пор как вы начали видеться"},
+  "subscales": [
+    {
+      "id": "signals",
+      "en": "Clear signals", "ru": "Ясные сигналы",
+      "low": {"en": "Few clear signals of where this is going. You can't read it from behaviour alone; a direct question is the only reliable source.", "ru": "Мало ясных сигналов о том, куда это идёт. По поведению этого не прочитать; единственный надёжный источник это прямой вопрос."},
+      "mid": {"en": "Mixed signals. Write down what was actually said and done, separately from what you hope or fear it means.", "ru": "Сигналы смешанные. Запиши, что реально было сказано и сделано, отдельно от того, на что ты надеешься или чего боишься."},
+      "high": {"en": "Things are fairly clear between you.", "ru": "Между вами довольно много ясности."}
+    },
+    {
+      "id": "cost",
+      "en": "What the uncertainty costs me", "ru": "Чего мне стоит неопределённость",
+      "low": {"en": "The uncertainty doesn't cost you much right now.", "ru": "Сейчас неопределённость тебе почти ничего не стоит."},
+      "mid": {"en": "It costs you something. Decide for yourself how long you're willing to wait, before you talk.", "ru": "Она тебе чего-то стоит. Реши для себя, сколько ты готов(а) ждать, ещё до разговора."},
+      "high": {"en": "The uncertainty costs you a lot. Your needs count too; asking for clarity is not pressure.", "ru": "Неопределённость дорого тебе обходится. Твои потребности тоже важны; просить ясности не значит давить."}
+    }
+  ],
+  "items": [
+    {"id": "rc1", "sub": "signals", "rev": false, "en": "We make plans more than a few days ahead.", "ru": "Мы строим планы дальше, чем на пару дней вперёд."},
+    {"id": "rc2", "sub": "signals", "rev": false, "en": "I've met their friends, or they've met mine.", "ru": "Я знаком(а) с его/её друзьями или он(а) с моими."},
+    {"id": "rc3", "sub": "signals", "rev": false, "en": "We've talked about whether we see other people.", "ru": "Мы обсуждали, встречаемся ли с кем-то ещё."},
+    {"id": "rc4", "sub": "signals", "rev": true, "en": "When I bring up 'what are we', the topic gets changed or postponed.", "ru": "Когда я завожу разговор «кто мы друг другу», тему переводят или откладывают."},
+    {"id": "rc5", "sub": "cost", "rev": false, "en": "I hold back from other options while waiting for this to become clear.", "ru": "Я не рассматриваю другие варианты, пока жду ясности здесь."},
+    {"id": "rc6", "sub": "cost", "rev": false, "en": "I feel anxious when I don't hear from them.", "ru": "Мне тревожно, когда от него/неё нет вестей."},
+    {"id": "rc7", "sub": "cost", "rev": false, "en": "I pretend I'm fine with 'no labels' when I'm not.", "ru": "Я делаю вид, что меня устраивает «без ярлыков», хотя это не так."},
+    {"id": "rc8", "sub": "cost", "rev": false, "en": "I've thought about ending it just to stop not knowing.", "ru": "Я думал(а) закончить это, просто чтобы перестать не знать."}
+  ],
+  "reflect": {
+    "en": ["What do you actually want this to be?", "What answer are you afraid of, and what would you do if you heard it?", "How long are you willing to wait, and what happens after that?"],
+    "ru": ["Чем ты на самом деле хочешь, чтобы это было?", "Какого ответа ты боишься и что сделаешь, если его услышишь?", "Сколько ты готов(а) ждать и что будет после?"]
+  },
+  "links": {
+    "en": [{"title": "Article: Not ready for a relationship but likes me", "url": "https://pairclear.com/en/mixed-signals/not-ready-but-likes-me/"}],
+    "ru": [
+      {"title": "Статья: мы встречаемся или нет?", "url": "https://pairclear.com/ru/status-neyasen/my-vstrechaemsya-ili-net/"},
+      {"title": "Тест: он вкладывается или удерживает?", "url": "https://pairclear.com/ru/tests/on-vkladyvaetsya-ili-uderzhivaet/"}
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "after-breakup",
+  "version": "1.0",
+  "title": {"en": "After the breakup: where am I now", "ru": "После расставания: где я сейчас"},
+  "intro": {
+    "en": "Not a prediction of whether they'll come back: nobody can make one. These questions show how much of your attention is still on the ex, and how much is coming back to your own life.",
+    "ru": "Это не прогноз, вернётся ли человек: такого прогноза не может дать никто. Вопросы показывают, сколько внимания ещё у бывшего партнёра и сколько возвращается к твоей жизни."
+  },
+  "timeframe": {"en": "the last 2 weeks", "ru": "последние 2 недели"},
+  "subscales": [
+    {
+      "id": "holding",
+      "en": "Still holding on", "ru": "Ещё держусь за прошлое",
+      "low": {"en": "The ex takes up little of your attention now.", "ru": "Бывший партнёр сейчас занимает мало внимания."},
+      "mid": {"en": "Part of your attention is still there. That's normal; try one small limit, like muting their profile for a week.", "ru": "Часть внимания ещё там. Это нормально; попробуй одно маленькое ограничение, например скрыть его/её профиль на неделю."},
+      "high": {"en": "A lot of your attention is still on the ex. Be kind to yourself, and if it's been months or it's affecting sleep and work, talking to a psychologist can help.", "ru": "Много внимания ещё у бывшего партнёра. Будь к себе бережнее; если прошли месяцы или страдают сон и работа, может помочь психолог."}
+    },
+    {
+      "id": "rebuild",
+      "en": "Coming back to my life", "ru": "Возвращаюсь к своей жизни",
+      "low": {"en": "Your own life hasn't come back yet. Start with one thing that used to be yours before the relationship.", "ru": "Своя жизнь пока не вернулась. Начни с одного дела, которое было твоим ещё до отношений."},
+      "mid": {"en": "Some of your life is coming back. Notice which days are easier, and what's in them.", "ru": "Часть жизни возвращается. Заметь, какие дни легче и что в них есть."},
+      "high": {"en": "Your life is filling up again.", "ru": "Твоя жизнь снова наполняется."}
+    }
+  ],
+  "items": [
+    {"id": "ab1", "sub": "holding", "rev": false, "en": "I check their social media or online status.", "ru": "Я смотрю его/её соцсети или статус онлайн."},
+    {"id": "ab2", "sub": "holding", "rev": false, "en": "I reread old messages or look at old photos.", "ru": "Я перечитываю старую переписку или смотрю старые фото."},
+    {"id": "ab3", "sub": "holding", "rev": false, "en": "I plan what I'd say if they wrote to me.", "ru": "Я продумываю, что скажу, если он(а) напишет."},
+    {"id": "ab4", "sub": "holding", "rev": false, "en": "I make decisions based on whether they'd notice.", "ru": "Я принимаю решения с оглядкой на то, заметит ли он(а)."},
+    {"id": "ab5", "sub": "rebuild", "rev": false, "en": "I spend time with people who are good for me.", "ru": "Я провожу время с людьми, с которыми мне хорошо."},
+    {"id": "ab6", "sub": "rebuild", "rev": false, "en": "I do something just for myself, not to show anyone.", "ru": "Я делаю что-то просто для себя, а не чтобы кому-то показать."},
+    {"id": "ab7", "sub": "rebuild", "rev": false, "en": "There are hours when I don't think about the breakup.", "ru": "Бывают часы, когда я не думаю о расставании."},
+    {"id": "ab8", "sub": "rebuild", "rev": false, "en": "I can think about the future without the ex in it.", "ru": "Я могу думать о будущем, в котором нет бывшего партнёра."}
+  ],
+  "reflect": {
+    "en": ["What do you miss most: the person, the routine, or who you were with them?", "What is one thing you want back in your life that isn't them?", "If they wrote tomorrow, what would you want for yourself?"],
+    "ru": ["По чему ты скучаешь больше: по человеку, по укладу или по тому, каким(ой) ты был(а) рядом?", "Что одно ты хочешь вернуть в свою жизнь, кроме него/неё?", "Если он(а) напишет завтра, чего ты хочешь для себя?"]
+  },
+  "links": {
+    "en": [{"title": "Quiz: Will she come back?", "url": "https://pairclear.com/en/tests/will-she-come-back/"}],
+    "ru": [{"title": "Тест: твой сценарий после расставания", "url": "https://pairclear.com/ru/tests/tvoy-scenariy-posle-rasstavaniya/"}]
+  }
+}

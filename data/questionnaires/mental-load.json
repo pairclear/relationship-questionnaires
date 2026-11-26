@@ -1,0 +1,47 @@
+{
+  "id": "mental-load",
+  "version": "1.0",
+  "title": {"en": "Who keeps track of everything: the mental load at home", "ru": "Кто всё помнит: невидимая нагрузка дома"},
+  "intro": {
+    "en": "Housework is not just doing, it's also noticing, planning and reminding. These questions are about your share of each. Each partner can fill it in separately and compare.",
+    "ru": "Домашние дела это не только сделать, но и заметить, спланировать и напомнить. Вопросы о твоей доле в каждом. Каждый партнёр может заполнить отдельно, а потом сравнить."
+  },
+  "timeframe": {"en": "a typical recent month", "ru": "обычный месяц в последнее время"},
+  "subscales": [
+    {
+      "id": "load",
+      "en": "My share of the invisible work", "ru": "Моя доля невидимой работы",
+      "low": {"en": "The invisible work doesn't fall mainly on you.", "ru": "Невидимая работа не ложится в основном на тебя."},
+      "mid": {"en": "You carry a good part of it. Make a list together of what needs noticing, not just doing.", "ru": "На тебе её заметная часть. Составьте вместе список того, что нужно замечать, а не только делать."},
+      "high": {"en": "Most of the noticing and planning is on you. A fair split is about handing over whole areas (from noticing to doing), not single tasks.", "ru": "Почти всё замечание и планирование на тебе. Честное разделение это передача целых зон (от «заметить» до «сделать»), а не отдельных поручений."}
+    },
+    {
+      "id": "talk",
+      "en": "Can we talk about it", "ru": "Можем ли мы об этом говорить",
+      "low": {"en": "It's hard to raise this without a fight. Try a calm time and one concrete area, not 'you never help'.", "ru": "Это трудно поднять без ссоры. Попробуй спокойное время и одну конкретную зону, а не «ты никогда не помогаешь»."},
+      "mid": {"en": "Sometimes you can talk about it. What made those times work?", "ru": "Иногда об этом удаётся поговорить. Что помогло в те разы?"},
+      "high": {"en": "You can talk about it. That makes changing the split much easier.", "ru": "Об этом можно говорить. Это сильно облегчает перемены."}
+    }
+  ],
+  "items": [
+    {"id": "ml1", "sub": "load", "rev": false, "en": "I'm the one who notices that something has run out or needs doing.", "ru": "Именно я замечаю, что что-то закончилось или нужно сделать."},
+    {"id": "ml2", "sub": "load", "rev": false, "en": "I keep track of appointments, birthdays and deadlines for the household.", "ru": "Я держу в голове записи к врачам, дни рождения и сроки для всей семьи."},
+    {"id": "ml3", "sub": "load", "rev": false, "en": "If I don't remind, it doesn't get done.", "ru": "Если я не напомню, это не будет сделано."},
+    {"id": "ml4", "sub": "load", "rev": false, "en": "I'm asked 'what should I buy / do?' instead of my partner working it out.", "ru": "Меня спрашивают «что купить / что сделать?», вместо того чтобы разобраться самому."},
+    {"id": "ml5", "sub": "load", "rev": false, "en": "I find it hard to relax at home because I see what still needs doing.", "ru": "Мне трудно расслабиться дома, потому что я вижу, что ещё нужно сделать."},
+    {"id": "ml6", "sub": "talk", "rev": false, "en": "When I raise the split of tasks, my partner listens.", "ru": "Когда я поднимаю тему распределения дел, партнёр слушает."},
+    {"id": "ml7", "sub": "talk", "rev": true, "en": "A request about chores turns into an argument.", "ru": "Просьба о домашних делах превращается в ссору."},
+    {"id": "ml8", "sub": "talk", "rev": false, "en": "We have agreed who owns which area at home.", "ru": "Мы договорились, кто за какую зону дома отвечает."}
+  ],
+  "reflect": {
+    "en": ["Which one area would you hand over completely, from noticing to doing?", "What do you need to let go of for that to work (for example, it being done your way)?", "How would you raise it in one sentence, without 'always' and 'never'?"],
+    "ru": ["Какую одну зону ты бы отдал(а) полностью, от «заметить» до «сделать»?", "От чего придётся отказаться, чтобы это сработало (например, чтобы было по-твоему)?", "Как сказать об этом одним предложением, без «всегда» и «никогда»?"]
+  },
+  "links": {
+    "en": [{"title": "All PairClear quizzes", "url": "https://pairclear.com/en/tests/"}],
+    "ru": [
+      {"title": "Статья: почему всё помнишь только ты", "url": "https://pairclear.com/ru/tyanu-vsyo-odna/pochemu-vsyo-pomnish-tolko-ty/"},
+      {"title": "Статья: если не напомню, не сделает", "url": "https://pairclear.com/ru/tyanu-vsyo-odna/esli-ne-napomnyu-ne-sdelaet/"}
+    ]
+  }
+}

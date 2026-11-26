@@ -1,0 +1,44 @@
+{
+  "id": "effort-balance",
+  "version": "1.0",
+  "title": {"en": "Who carries the relationship: effort balance", "ru": "Кто тянет отношения: баланс вклада"},
+  "intro": {
+    "en": "About the early or undefined stage, when you are not sure both of you are putting in the same. It looks at what each of you does, not at intentions.",
+    "ru": "Для ранней или неопределённой стадии, когда непонятно, вкладываетесь ли вы одинаково. Смотрим на то, что каждый делает, а не на намерения."
+  },
+  "timeframe": {"en": "the last 4 weeks", "ru": "последние 4 недели"},
+  "subscales": [
+    {
+      "id": "imbalance",
+      "en": "Imbalance of effort", "ru": "Перекос вклада",
+      "low": {"en": "Effort looks fairly shared.", "ru": "Вклад выглядит примерно общим."},
+      "mid": {"en": "You do noticeably more in some areas. Try stepping back once and see what happens, without testing or punishing.", "ru": "В чём-то ты делаешь заметно больше. Попробуй один раз не брать инициативу и посмотри, что будет, без проверок и наказаний."},
+      "high": {"en": "Most of the effort seems to come from you. That's worth naming directly: what you want, and what you'd need from the other person to keep going.", "ru": "Похоже, большая часть усилий идёт от тебя. Это стоит назвать прямо: чего ты хочешь и что тебе нужно от другого человека, чтобы продолжать."}
+    },
+    {
+      "id": "clarity",
+      "en": "Clarity between us", "ru": "Ясность между нами",
+      "low": {"en": "There is little clarity about what this is. You are allowed to ask.", "ru": "Ясности о том, что между вами, мало. Спрашивать можно."},
+      "mid": {"en": "Some things are clear, some are not. Which question would you most like answered?", "ru": "Что-то понятно, что-то нет. На какой вопрос тебе больше всего хочется получить ответ?"},
+      "high": {"en": "You mostly know where you stand.", "ru": "В основном ты понимаешь, где вы находитесь."}
+    }
+  ],
+  "items": [
+    {"id": "eb1", "sub": "imbalance", "rev": false, "en": "I am the one who suggests meeting.", "ru": "Встретиться предлагаю я."},
+    {"id": "eb2", "sub": "imbalance", "rev": false, "en": "If I don't write first, we don't talk for days.", "ru": "Если я не напишу первым(ой), мы не общаемся по несколько дней."},
+    {"id": "eb3", "sub": "imbalance", "rev": false, "en": "I adjust my plans to fit the other person, and it rarely goes the other way.", "ru": "Я подстраиваю свои планы под другого человека, а наоборот бывает редко."},
+    {"id": "eb4", "sub": "imbalance", "rev": false, "en": "I ask more questions about their life than they ask about mine.", "ru": "Я задаю больше вопросов о его/её жизни, чем он(а) о моей."},
+    {"id": "eb5", "sub": "imbalance", "rev": true, "en": "The other person keeps promises about time together.", "ru": "Другой человек выполняет обещания о совместном времени."},
+    {"id": "eb6", "sub": "clarity", "rev": false, "en": "We have talked about what we are to each other.", "ru": "Мы говорили о том, кто мы друг другу."},
+    {"id": "eb7", "sub": "clarity", "rev": false, "en": "I know whether I am introduced to their friends and family, and why.", "ru": "Я знаю, знакомят ли меня с друзьями и семьёй, и почему."},
+    {"id": "eb8", "sub": "clarity", "rev": true, "en": "I'm afraid that asking 'what are we' will end things.", "ru": "Я боюсь, что вопрос «кто мы друг другу» всё закончит."}
+  ],
+  "reflect": {
+    "en": ["What would 'enough effort' from the other side look like, concretely?", "What are you afraid will happen if you stop carrying it for a week?", "What would you tell a friend in the same situation?"],
+    "ru": ["Как конкретно выглядел бы «достаточный вклад» с другой стороны?", "Чего ты боишься, если на неделю перестанешь тянуть?", "Что бы ты сказал(а) другу или подруге в такой же ситуации?"]
+  },
+  "links": {
+    "en": [{"title": "Article: Texts every day but never makes plans", "url": "https://pairclear.com/en/mixed-signals/texts-every-day-no-plans/"}],
+    "ru": [{"title": "Тест: он вкладывается или удерживает?", "url": "https://pairclear.com/ru/tests/on-vkladyvaetsya-ili-uderzhivaet/"}]
+  }
+}

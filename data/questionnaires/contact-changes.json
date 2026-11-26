@@ -1,0 +1,47 @@
+{
+  "id": "contact-changes",
+  "version": "1.0",
+  "title": {"en": "What changed in how we keep in touch", "ru": "Что изменилось в нашем общении"},
+  "intro": {
+    "en": "For when you feel a partner has become more distant. These questions are about what actually changed between you, not about what your partner feels: only they can answer that.",
+    "ru": "Для момента, когда кажется, что партнёр отдаляется. Вопросы о том, что реально изменилось между вами, а не о том, что чувствует партнёр: на это может ответить только он сам."
+  },
+  "timeframe": {"en": "the last month, compared with before", "ru": "последний месяц по сравнению с тем, что было раньше"},
+  "subscales": [
+    {
+      "id": "change",
+      "en": "Change in contact", "ru": "Изменения в общении",
+      "low": {"en": "Few visible changes. The distance you feel may be about something not yet said; asking directly is often easier than guessing.", "ru": "Видимых изменений немного. Ощущение дистанции может быть связано с чем-то несказанным; прямой вопрос часто проще, чем догадки."},
+      "mid": {"en": "Some things have changed. Pick one concrete change and ask about it calmly, without a conclusion attached.", "ru": "Кое-что изменилось. Выберите одно конкретное изменение и спокойно спросите о нём, не добавляя вывод."},
+      "high": {"en": "A lot has changed in how you keep in touch. That deserves a direct conversation about what is going on for both of you. Changes have many possible causes: stress, work, health, doubts.", "ru": "Многое изменилось в том, как вы общаетесь. Это повод для прямого разговора о том, что происходит у каждого. У изменений много возможных причин: стресс, работа, здоровье, сомнения."}
+    },
+    {
+      "id": "worry",
+      "en": "How much it takes from me", "ru": "Сколько это у меня забирает",
+      "low": {"en": "It doesn't take much of your attention. Good: you have room to think clearly.", "ru": "Это не забирает много внимания. Хорошо: есть место, чтобы думать ясно."},
+      "mid": {"en": "It takes a noticeable part of your attention. Try writing down facts separately from interpretations.", "ru": "Это заметно занимает мысли. Попробуй записывать факты отдельно от интерпретаций."},
+      "high": {"en": "It takes a lot of your attention and energy. Whatever happens next, it may help to talk to someone you trust, or a psychologist, about how you are.", "ru": "Это забирает много внимания и сил. Что бы ни было дальше, может помочь разговор о том, как ты, с близким человеком или психологом."}
+    }
+  ],
+  "items": [
+    {"id": "cc1", "sub": "change", "rev": false, "en": "My partner starts conversations or texts less often than before.", "ru": "Партнёр реже, чем раньше, первым пишет или начинает разговор."},
+    {"id": "cc2", "sub": "change", "rev": false, "en": "Plans together are made later, vaguer or get cancelled more than before.", "ru": "Совместные планы строятся позже, размытее или отменяются чаще, чем раньше."},
+    {"id": "cc3", "sub": "change", "rev": false, "en": "Replies to me are shorter or slower than they used to be.", "ru": "Ответы мне стали короче или медленнее, чем были."},
+    {"id": "cc4", "sub": "change", "rev": false, "en": "We talk less about the future (holidays, plans, 'next year').", "ru": "Мы меньше говорим о будущем (отпуск, планы, «в следующем году»)."},
+    {"id": "cc5", "sub": "change", "rev": true, "en": "When I bring up something important, my partner engages with it.", "ru": "Когда я поднимаю что-то важное, партнёр в это включается."},
+    {"id": "cc6", "sub": "worry", "rev": false, "en": "I check my phone waiting for a message.", "ru": "Я проверяю телефон в ожидании сообщения."},
+    {"id": "cc7", "sub": "worry", "rev": false, "en": "I replay conversations looking for signs of what's wrong.", "ru": "Я прокручиваю разговоры в голове, ища признаки того, что не так."},
+    {"id": "cc8", "sub": "worry", "rev": false, "en": "I avoid asking directly because I'm afraid of the answer.", "ru": "Я не спрашиваю прямо, потому что боюсь ответа."}
+  ],
+  "reflect": {
+    "en": ["Which change bothers you most? Describe it as a fact, without a conclusion.", "What else could explain it, apart from your first guess?", "What would you want to ask your partner, and what would you need to hear?"],
+    "ru": ["Какое изменение беспокоит больше всего? Опиши его как факт, без вывода.", "Чем ещё это можно объяснить, кроме первой догадки?", "О чём ты хотел(а) бы спросить партнёра и что тебе важно услышать?"]
+  },
+  "links": {
+    "en": [
+      {"title": "Quiz: Is she losing interest?", "url": "https://pairclear.com/en/tests/is-she-losing-interest/"},
+      {"title": "Quiz: Is he losing interest?", "url": "https://pairclear.com/en/tests/is-he-losing-interest/"}
+    ],
+    "ru": [{"title": "Тест: она отдаляется?", "url": "https://pairclear.com/ru/tests/ona-otdalyaetsya/"}]
+  }
+}

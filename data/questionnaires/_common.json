@@ -1,0 +1,15 @@
+{
+  "scale": {
+    "min": 0, "max": 4,
+    "labels": {
+      "en": ["Never", "Rarely", "Sometimes", "Often", "Almost always"],
+      "ru": ["Никогда", "Редко", "Иногда", "Часто", "Почти всегда"]
+    }
+  },
+  "bands": [
+    {"id": "low", "max": 1.5},
+    {"id": "mid", "max": 2.5},
+    {"id": "high", "max": 4}
+  ],
+  "safety_threshold": 2
+}

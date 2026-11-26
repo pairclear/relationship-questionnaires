@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Relationship questionnaires · Опросники об отношениях</title>
+<meta name="description" content="Free relationship questionnaires that run in your browser: conflict patterns, effort balance, mental load, clarity, after a breakup. RU + EN, nothing is sent anywhere. Бесплатные опросники об отношениях в браузере.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231a1714'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23c0613f'/%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#faf7f2; --card:#f2ede5; --field:#ffffff; --ink:#1a1714; --muted:#6b645c; --line:#e4ddd2;
+  --accent:#b85c3c; --accent-soft:#f3e2d9; --btn:#1a1714; --btn-ink:#faf7f2; --warn:#8a3b1f; --warn-bg:#fbe9df;
+  --serif:"Iowan Old Style","Charter","Georgia","Cambria","Times New Roman",serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI","Inter","Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace; --r:14px;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15130f; --card:#211e19; --field:#1b1814; --ink:#efe9df; --muted:#a39b8f; --line:#332e27;
+    --accent:#d9774f; --accent-soft:#3a271e; --btn:#efe9df; --btn-ink:#15130f; --warn:#f2b597; --warn-bg:#3a2219;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15130f; --card:#211e19; --field:#1b1814; --ink:#efe9df; --muted:#a39b8f; --line:#332e27;
+  --accent:#d9774f; --accent-soft:#3a271e; --btn:#efe9df; --btn-ink:#15130f; --warn:#f2b597; --warn-bg:#3a2219;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--sans)}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 20px}
+header.top{border-bottom:1px solid var(--line)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;height:64px;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--serif);font-size:20px;text-decoration:none}
+.mark{display:inline-flex;align-items:center;justify-content:center;width:28px;height:28px;border-radius:8px;background:var(--ink)}
+.mark i{width:9px;height:9px;border-radius:50%;background:var(--accent)}
+.langs{display:flex;gap:4px}
+.langs button,.tabs button{font:inherit;font-size:14px;background:none;border:1px solid transparent;color:var(--muted);padding:4px 12px;border-radius:999px;cursor:pointer}
+.langs button[aria-pressed="true"],.tabs button[aria-pressed="true"]{color:var(--ink);border-color:var(--line);background:var(--card)}
+main{padding:40px 0 56px}
+h1,h2,h3{font-family:var(--serif);font-weight:600;letter-spacing:-.01em;line-height:1.15;margin:0}
+h1{font-size:clamp(34px,6vw,54px)}
+h2{font-size:clamp(24px,4vw,32px);margin-top:56px}
+h3{font-size:18px}
+.lead{font-size:19px;max-width:660px;margin:18px 0 0}
+.muted{color:var(--muted)} .small{font-size:14px}
+.note{background:var(--warn-bg);color:var(--warn);border-radius:var(--r);padding:14px 18px;margin:24px 0 0;font-size:15px;max-width:760px}
+.rules{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:22px;padding:0;list-style:none}
+.rules li{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px}
+.rules b{display:block;font-family:var(--serif);font-size:18px;margin-bottom:4px}
+.rules span{color:var(--muted);font-size:15px}
+.tabs{display:flex;gap:6px;margin:18px 0 10px;flex-wrap:wrap}
+pre{background:var(--field);border:1px solid var(--line);border-radius:var(--r);padding:16px 18px;white-space:pre-wrap;word-wrap:break-word;font:14px/1.55 var(--mono);max-height:440px;overflow:auto;margin:0}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin-top:14px}
+.btn{font:inherit;font-weight:600;font-size:16px;background:var(--btn);color:var(--btn-ink);border:1px solid var(--btn);padding:11px 18px;border-radius:999px;cursor:pointer}
+.btn:focus-visible,button:focus-visible{outline:3px solid var(--accent-soft);outline-offset:2px}
+details{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:14px 18px;margin-top:10px}
+summary{cursor:pointer;font-weight:600}
+summary small{font-weight:400;color:var(--muted)}
+details q{display:block;font-family:var(--serif);font-size:18px;margin:12px 0;quotes:"\201C" "\201D"}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:700px){.cols{grid-template-columns:1fr}}
+.cols ul{margin:6px 0 0;padding-left:20px;font-size:15px}
+.ok{color:#2f7a4a} .no{color:var(--warn)}
+table{width:100%;border-collapse:collapse;font-size:15px;margin-top:14px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.04em}
+.tablewrap{overflow-x:auto}
+footer{border-top:1px solid var(--line);padding:28px 0 40px;font-size:14px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px;margin-top:28px}
+.qcard{display:block;text-align:left;font:inherit;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;cursor:pointer}
+.qcard:hover{border-color:var(--accent)}
+.qcard b{display:block;font-family:var(--serif);font-size:19px;line-height:1.25;margin-bottom:6px}
+.qcard span{font-size:15px;color:var(--muted)}
+.back{font:inherit;font-size:15px;background:none;border:0;color:var(--muted);padding:0;cursor:pointer;margin-bottom:18px}
+.item{border-top:1px solid var(--line);padding:18px 0}
+.item p{margin:0 0 10px;font-size:18px}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opts label{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;cursor:pointer;background:var(--field)}
+.opts input{position:absolute;opacity:0;pointer-events:none}
+.opts label:has(input:checked){background:var(--accent);border-color:var(--accent);color:#fff}
+.opts label:has(input:focus-visible){outline:3px solid var(--accent-soft)}
+.progress{position:sticky;top:0;background:var(--bg);padding:10px 0;z-index:2;font-size:14px;color:var(--muted)}
+.bar{height:6px;background:var(--line);border-radius:6px;overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;background:var(--accent);width:0;transition:width .2s}
+.part{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:18px 20px;margin-top:14px}
+.part h3{display:flex;justify-content:space-between;gap:12px}
+.part h3 span{font-family:var(--sans);font-size:15px;color:var(--muted);font-weight:400}
+.part .bar{height:10px;margin:10px 0 12px}
+.part p{margin:0}
+.safety{background:var(--warn-bg);color:var(--warn);border-radius:var(--r);padding:16px 20px;margin-top:20px}
+ol.reflect{padding-left:22px} ol.reflect li{margin:6px 0}
+.links a{display:inline-block;margin:4px 14px 4px 0}
+@media print{header.top,.back,.row,footer,.langs{display:none} body{background:#fff;color:#000}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="https://pairclear.com/?utm_source=github&utm_medium=pages&utm_campaign=relationship-questionnaires"><span class="mark"><i></i></span>PairClear</a>
+  <div class="langs" role="group" aria-label="Language">
+    <button data-lang="ru" aria-pressed="false">RU</button><button data-lang="en" aria-pressed="false">EN</button>
+  </div>
+</div></header>
+<main class="wrap" id="app"></main>
+<footer><div class="wrap" id="foot"></div></footer>
+<script>
+const DATA = /*DATA*/null;
+const C = DATA.common, QS = DATA.questionnaires;
+const UTM = "utm_source=github&utm_medium=pages&utm_campaign=relationship-questionnaires";
+const T = {
+  en: {
+    h1: "Relationship questionnaires",
+    lead: "Seven short questionnaires about what is happening between two people: how you argue, who carries the effort, the invisible work at home, how clear things are, and where you are after a breakup. They run in your browser and send nothing anywhere.",
+    banner: "Self-reflection, not diagnosis. Written by PairClear and not validated in research. They measure how things go between two people, not anyone's psyche, and they cannot tell you what your partner feels.",
+    items: n => n + " questions", think: "Think about", back: "← All questionnaires", answered: (a,n) => a + " of " + n + " answered",
+    result: "See the result", resultH: "Your result", of4: "out of 4", bands: {low: "low", mid: "middle", high: "high"},
+    notValid: "These are not norms or cut-offs. Use the result to start a conversation, not to judge yourself or your partner.",
+    safety: "You said you feel afraid of your partner, or are being controlled or threatened. That matters more than any score. If you are in danger now, call 112 (Europe) or 911 (US, Canada). Free, confidential helplines in your country: <a href=\"https://findahelpline.com\" rel=\"noopener\">findahelpline.com</a>. In the US: National Domestic Violence Hotline 1-800-799-7233; in the UK: 0808 2000 247.",
+    reflect: "Questions to think about", more: "On PairClear", copy: "Copy result as text", copied: "Copied", print: "Print", again: "Start again",
+    sources: "Why our own questions? Openly licensed, validated relationship scales are rare: we checked eight well-known ones and none allowed republishing and translation. <a href=\"https://github.com/pairclear/relationship-questionnaires/blob/main/docs/licence-check.md\">See the licence check</a>.",
+    foot: "Made by <a href=\"https://pairclear.com/en/?" + UTM + "\">PairClear</a>. Code MIT, questionnaires CC BY 4.0, written with AI assistance. <a href=\"https://github.com/pairclear/relationship-questionnaires\">Source on GitHub</a>. No network requests, no analytics, answers are not stored."
+  },
+  ru: {
+    h1: "Опросники об отношениях",
+    lead: "Семь коротких опросников о том, что происходит между двумя людьми: как вы ссоритесь, кто тянет отношения, невидимая нагрузка дома, насколько всё ясно и где ты после расставания. Работают в браузере и никуда ничего не отправляют.",
+    banner: "Саморефлексия, а не диагностика. Написано PairClear, в исследованиях не валидировано. Опросники измеряют то, что происходит между двумя людьми, а не чью-то психику, и не могут сказать, что чувствует партнёр.",
+    items: n => n + " вопросов", think: "Вспомни", back: "← Все опросники", answered: (a,n) => "Отвечено " + a + " из " + n,
+    result: "Посмотреть результат", resultH: "Твой результат", of4: "из 4", bands: {low: "низко", mid: "середина", high: "высоко"},
+    notValid: "Это не нормы и не пороги. Используй результат, чтобы начать разговор, а не чтобы оценивать себя или партнёра.",
+    safety: "Ты отметил(а), что боишься партнёра или тебя контролируют либо угрожают. Это важнее любых баллов. Если опасность сейчас, звони 112. Бесплатные линии помощи в твоей стране: <a href=\"https://findahelpline.com\" rel=\"noopener\">findahelpline.com</a>. В России для женщин, пострадавших от насилия: 8-800-7000-600. В Украине: 7333. В Польше: 800 70 2222.",
+    reflect: "Вопросы для размышления", more: "На PairClear", copy: "Скопировать результат текстом", copied: "Скопировано", print: "Распечатать", again: "Заново",
+    sources: "Почему свои вопросы? Валидированных шкал об отношениях с открытой лицензией почти нет: мы проверили восемь известных, и ни одна не разрешает свободно публиковать и переводить пункты. <a href=\"https://github.com/pairclear/relationship-questionnaires/blob/main/docs/licence-check.md\">Подробно о проверке лицензий</a>.",
+    foot: "Сделано <a href=\"https://pairclear.com/ru/?" + UTM + "\">PairClear</a>. Код MIT, опросники CC BY 4.0, написано с помощью ИИ. <a href=\"https://github.com/pairclear/relationship-questionnaires\">Исходники на GitHub</a>. Никаких сетевых запросов и аналитики, ответы не сохраняются."
+  }
+};
+const params = new URLSearchParams(location.search);
+let lang = params.get("lang") || ((navigator.language || "en").toLowerCase().startsWith("ru") ? "ru" : "en");
+if (!T[lang]) lang = "en";
+let cur = QS.find(q => q.id === params.get("q")) || null;
+let answers = {}, view = cur ? "quiz" : "list";
+const app = document.getElementById("app");
+function esc(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]))}
+function link(u){return u + (u.includes("?") ? "&" : "?") + UTM}
+function band(v){return C.bands.find(b => v <= b.max + 1e-9).id}
+function score(q){
+  return q.subscales.map(s => {
+    const its = q.items.filter(i => i.sub === s.id);
+    const vals = its.map(i => i.rev ? C.scale.max - answers[i.id] : answers[i.id]);
+    const v = vals.reduce((a,b)=>a+b,0) / vals.length;
+    return {s, v, b: band(v)};
+  });
+}
+function flagged(q){return q.items.some(i => i.flag === "safety" && answers[i.id] >= C.safety_threshold)}
+function render(){
+  const t = T[lang];
+  document.documentElement.lang = lang;
+  document.querySelectorAll(".langs button").forEach(b => b.setAttribute("aria-pressed", b.dataset.lang === lang));
+  document.getElementById("foot").innerHTML = t.foot;
+  if (view === "list") {
+    app.innerHTML = "<h1>" + t.h1 + "</h1><p class=\"lead\">" + t.lead + "</p><p class=\"note\">" + t.banner + "</p><div class=\"cards\">" +
+      QS.map(q => "<button class=\"qcard\" data-q=\"" + q.id + "\"><b>" + esc(q.title[lang]) + "</b><span>" + esc(q.intro[lang].split(". ")[0].replace(/\.$/,"")) + ". " + t.items(q.items.length) + "</span></button>").join("") +
+      "</div><p class=\"muted small\" style=\"margin-top:28px;max-width:720px\">" + t.sources + "</p>";
+    app.querySelectorAll(".qcard").forEach(b => b.onclick = () => { cur = QS.find(q => q.id === b.dataset.q); answers = {}; view = "quiz"; history.replaceState(null, "", "?q=" + cur.id + "&lang=" + lang); render(); scrollTo(0,0); });
+    return;
+  }
+  const q = cur, n = q.items.length, a = Object.keys(answers).length;
+  if (view === "quiz") {
+    app.innerHTML = "<button class=\"back\">" + t.back + "</button><h1 style=\"font-size:clamp(28px,5vw,42px)\">" + esc(q.title[lang]) + "</h1><p class=\"lead\">" + esc(q.intro[lang]) + "</p>" +
+      "<p class=\"muted\">" + t.think + ": <b>" + esc(q.timeframe[lang]) + "</b></p>" +
+      "<div class=\"progress\" id=\"prog\"></div>" +
+      q.items.map((it,i) => "<div class=\"item\"><p>" + (i+1) + ". " + esc(it[lang]) + "</p><div class=\"opts\" role=\"radiogroup\">" +
+        C.scale.labels[lang].map((lab,v) => "<label><input type=\"radio\" name=\"" + it.id + "\" value=\"" + v + "\"" + (answers[it.id] === v ? " checked" : "") + ">" + esc(lab) + "</label>").join("") + "</div></div>").join("") +
+      "<div class=\"row\"><button class=\"btn\" id=\"go\">" + t.result + "</button></div>";
+    const prog = () => { const k = Object.keys(answers).length; document.getElementById("prog").innerHTML = t.answered(k, n) + "<div class=\"bar\"><i style=\"width:" + (100*k/n) + "%\"></i></div>"; const g = document.getElementById("go"); g.disabled = k < n; g.style.opacity = k < n ? .45 : 1; };
+    app.querySelectorAll("input[type=radio]").forEach(r => r.onchange = () => { answers[r.name] = +r.value; prog(); });
+    app.querySelector(".back").onclick = () => { view = "list"; cur = null; history.replaceState(null, "", "?lang=" + lang); render(); };
+    document.getElementById("go").onclick = () => { if (Object.keys(answers).length === n) { view = "result"; render(); scrollTo(0,0); } };
+    prog();
+    return;
+  }
+  const res = score(q);
+  app.innerHTML = "<button class=\"back\">" + t.back + "</button><p class=\"muted\" style=\"margin:0\">" + esc(q.title[lang]) + "</p><h1 style=\"font-size:clamp(28px,5vw,42px)\">" + t.resultH + "</h1>" +
+    (flagged(q) ? "<div class=\"safety\">" + t.safety + "</div>" : "") +
+    res.map(r => "<div class=\"part\"><h3>" + esc(r.s[lang]) + "<span>" + r.v.toFixed(1).replace(".", lang==="ru"?",":".") + " " + t.of4 + " · " + t.bands[r.b] + "</span></h3><div class=\"bar\"><i style=\"width:" + (100*r.v/4) + "%\"></i></div><p>" + esc(r.s[r.b][lang]) + "</p></div>").join("") +
+    "<p class=\"muted small\" style=\"margin-top:14px\">" + t.notValid + "</p>" +
+    "<h2 style=\"margin-top:36px\">" + t.reflect + "</h2><ol class=\"reflect\">" + q.reflect[lang].map(x => "<li>" + esc(x) + "</li>").join("") + "</ol>" +
+    "<h2 style=\"margin-top:36px\">" + t.more + "</h2><p class=\"links\">" + q.links[lang].map(x => "<a href=\"" + link(x.url) + "\">" + esc(x.title) + " →</a>").join("") + "</p>" +
+    "<div class=\"row\"><button class=\"btn\" id=\"copy\">" + t.copy + "</button><button class=\"btn\" id=\"print\" style=\"background:none;color:var(--ink)\">" + t.print + "</button><button class=\"back\" id=\"again\" style=\"margin:0\">" + t.again + "</button></div>";
+  app.querySelector(".back").onclick = () => { view = "list"; cur = null; answers = {}; history.replaceState(null, "", "?lang=" + lang); render(); };
+  document.getElementById("again").onclick = () => { answers = {}; view = "quiz"; render(); scrollTo(0,0); };
+  document.getElementById("print").onclick = () => print();
+  document.getElementById("copy").onclick = async () => {
+    const txt = q.title[lang] + "\n\n" + res.map(r => r.s[lang] + ": " + r.v.toFixed(1) + "/4 (" + t.bands[r.b] + ")\n" + r.s[r.b][lang]).join("\n\n") + "\n\n" + t.reflect + ":\n" + q.reflect[lang].map((x,i) => (i+1) + ". " + x).join("\n") + "\n\n" + t.notValid;
+    try { await navigator.clipboard.writeText(txt); } catch (e) {}
+    const b = document.getElementById("copy"); b.textContent = t.copied; setTimeout(() => b.textContent = t.copy, 1600);
+  };
+}
+document.querySelectorAll(".langs button").forEach(b => b.onclick = () => { lang = b.dataset.lang; history.replaceState(null, "", "?" + (cur ? "q=" + cur.id + "&" : "") + "lang=" + lang); render(); });
+render();
+</script>
+</body>
+</html>

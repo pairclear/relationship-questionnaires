@@ -1,0 +1,176 @@
+{
+  "id": "conflict-pattern",
+  "version": "1.0",
+  "title": {
+    "en": "One fight or a pattern? How we argue",
+    "ru": "Одна ссора или система? Как мы ссоримся"
+  },
+  "intro": {
+    "en": "About how arguments go between you: whether the same fight repeats, how it escalates, and whether you find a way back. Two questions are about safety; if either applies, the result will show where to get help.",
+    "ru": "О том, как у вас проходят ссоры: повторяется ли одно и то же, как разгорается и находите ли вы путь обратно. Два вопроса о безопасности; если что-то из этого есть, в результате будет, куда обратиться."
+  },
+  "timeframe": {
+    "en": "the last 3 months",
+    "ru": "последние 3 месяца"
+  },
+  "subscales": [
+    {
+      "id": "repeat",
+      "en": "Repeating loop",
+      "ru": "Повторяющийся круг",
+      "low": {
+        "en": "Arguments don't seem to run in one loop.",
+        "ru": "Не похоже, что ссоры идут по одному кругу."
+      },
+      "mid": {
+        "en": "Some arguments repeat. Try naming the loop together, as 'us against the loop', not 'me against you'.",
+        "ru": "Некоторые ссоры повторяются. Попробуйте вместе назвать этот круг: «мы против круга», а не «я против тебя»."
+      },
+      "high": {
+        "en": "The same argument keeps coming back. That usually means the topic underneath hasn't been heard yet. A couples counsellor can help you get out of the loop.",
+        "ru": "Одна и та же ссора возвращается. Обычно это значит, что тема под ней ещё не услышана. Выйти из круга может помочь семейный консультант."
+      }
+    },
+    {
+      "id": "escalation",
+      "en": "Escalation",
+      "ru": "Эскалация",
+      "low": {
+        "en": "Arguments rarely get out of hand.",
+        "ru": "Ссоры редко выходят из-под контроля."
+      },
+      "mid": {
+        "en": "Sometimes it gets heated. Agree in a calm moment on a pause signal and how long the pause lasts.",
+        "ru": "Иногда разгорается. Договоритесь в спокойный момент о сигнале паузы и о том, сколько она длится."
+      },
+      "high": {
+        "en": "Arguments often get heated or personal. A pause rule helps; if it doesn't, it's worth getting outside help.",
+        "ru": "Ссоры часто разгораются или переходят на личности. Помогает правило паузы; если не помогает, стоит обратиться за помощью."
+      }
+    },
+    {
+      "id": "repair",
+      "en": "Repair",
+      "ru": "Примирение",
+      "low": {
+        "en": "It's hard to find a way back after an argument. Small repair attempts (a joke, a touch, 'let's start over') count.",
+        "ru": "После ссоры трудно найти путь обратно. Маленькие попытки примирения (шутка, прикосновение, «давай заново») считаются."
+      },
+      "mid": {
+        "en": "You sometimes find a way back. Notice what worked last time.",
+        "ru": "Иногда путь обратно находится. Заметьте, что сработало в прошлый раз."
+      },
+      "high": {
+        "en": "You usually find your way back. That's a real strength.",
+        "ru": "Обычно вы находите путь обратно. Это настоящая опора."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "cf1",
+      "sub": "repeat",
+      "rev": false,
+      "en": "We argue about the same topic again and again.",
+      "ru": "Мы снова и снова ссоримся из-за одной и той же темы."
+    },
+    {
+      "id": "cf2",
+      "sub": "repeat",
+      "rev": false,
+      "en": "I can predict how an argument will go from its first sentence.",
+      "ru": "По первой фразе я могу предсказать, как пойдёт ссора."
+    },
+    {
+      "id": "cf3",
+      "sub": "repeat",
+      "rev": false,
+      "en": "Old arguments are brought into new ones.",
+      "ru": "В новые ссоры приносятся старые."
+    },
+    {
+      "id": "cf4",
+      "sub": "escalation",
+      "rev": false,
+      "en": "Arguments turn into criticism of who the other person is, not what they did.",
+      "ru": "Ссоры превращаются в критику того, какой человек, а не того, что он сделал."
+    },
+    {
+      "id": "cf5",
+      "sub": "escalation",
+      "rev": false,
+      "en": "One of us shouts, insults or mocks the other.",
+      "ru": "Кто-то из нас кричит, оскорбляет или высмеивает другого."
+    },
+    {
+      "id": "cf6",
+      "sub": "escalation",
+      "rev": false,
+      "en": "One of us shuts down or leaves and won't talk for a long time.",
+      "ru": "Кто-то из нас закрывается или уходит и долго не разговаривает."
+    },
+    {
+      "id": "cf7",
+      "sub": "repair",
+      "rev": false,
+      "en": "After an argument, one of us makes a step towards the other.",
+      "ru": "После ссоры кто-то из нас делает шаг навстречу."
+    },
+    {
+      "id": "cf8",
+      "sub": "repair",
+      "rev": false,
+      "en": "We can later talk calmly about what happened.",
+      "ru": "Потом мы можем спокойно поговорить о том, что случилось."
+    },
+    {
+      "id": "cf8b",
+      "sub": "repair",
+      "rev": false,
+      "en": "In the middle of an argument, one of us can soften it (a joke, a touch, 'let's start over') and the other accepts it.",
+      "ru": "Посреди ссоры кто-то из нас может смягчить её (шутка, прикосновение, «давай заново»), и другой это принимает."
+    },
+    {
+      "id": "cf9",
+      "sub": null,
+      "flag": "safety",
+      "rev": false,
+      "en": "I feel afraid of my partner during or after arguments.",
+      "ru": "Я боюсь партнёра во время или после ссор."
+    },
+    {
+      "id": "cf10",
+      "sub": null,
+      "flag": "safety",
+      "rev": false,
+      "en": "My partner controls my money, phone or who I can see, or threatens me.",
+      "ru": "Партнёр контролирует мои деньги, телефон или с кем мне видеться, или угрожает мне."
+    }
+  ],
+  "reflect": {
+    "en": [
+      "What is the argument really about, underneath the topic?",
+      "What do you need from your partner at the moment it starts to escalate?",
+      "What helped you make up the last time it worked?"
+    ],
+    "ru": [
+      "О чём на самом деле ссора, если заглянуть под тему?",
+      "Что тебе нужно от партнёра в момент, когда всё начинает разгораться?",
+      "Что помогло помириться в последний раз, когда получилось?"
+    ]
+  },
+  "links": {
+    "en": [
+      {
+        "title": "Quiz: Am I the problem?",
+        "url": "https://pairclear.com/en/tests/am-i-the-problem/"
+      }
+    ],
+    "ru": [
+      {
+        "title": "Тест: конфликт или система?",
+        "url": "https://pairclear.com/ru/tests/konflikt-ili-sistema/"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "couple-pulse",
+  "version": "1.0",
+  "title": {"en": "Couple pulse: a 2-minute weekly check-in", "ru": "Пульс пары: проверка раз в неделю за 2 минуты"},
+  "intro": {
+    "en": "Eight quick questions about the last week in your relationship. Good to fill in separately and then compare over tea, not to win an argument.",
+    "ru": "Восемь коротких вопросов о прошлой неделе в ваших отношениях. Хорошо заполнить по отдельности и сравнить за чаем, а не чтобы выиграть спор."
+  },
+  "timeframe": {"en": "the last 7 days", "ru": "последние 7 дней"},
+  "subscales": [
+    {
+      "id": "connection",
+      "en": "Connection", "ru": "Близость",
+      "low": {"en": "Little sense of connection this week. Worth asking each other what one small moment together would look like.", "ru": "На этой неделе мало ощущения близости. Стоит спросить друг друга, каким мог бы быть один маленький момент вместе."},
+      "mid": {"en": "Some connection, some distance. Notice which moments felt good and repeat one of them on purpose.", "ru": "Близость то есть, то нет. Заметьте, какие моменты были хорошими, и повторите один из них нарочно."},
+      "high": {"en": "You felt connected most of the week. Worth saying out loud what helped.", "ru": "Большую часть недели вы чувствовали близость. Стоит вслух сказать, что помогло."}
+    },
+    {
+      "id": "friction",
+      "en": "Friction", "ru": "Напряжение",
+      "low": {"en": "Little tension this week.", "ru": "На этой неделе мало напряжения."},
+      "mid": {"en": "Some tension. Is there one topic that keeps coming back? Name it, and pick a calm time to talk.", "ru": "Напряжение было. Есть ли одна тема, которая возвращается? Назовите её и выберите спокойное время для разговора."},
+      "high": {"en": "A tense week. Before solving anything, agree on a short pause rule for arguments and a time to talk when both are calm.", "ru": "Напряжённая неделя. Прежде чем что-то решать, договоритесь о правиле паузы в споре и о времени, когда обоим спокойно поговорить."}
+    }
+  ],
+  "items": [
+    {"id": "cp1", "sub": "connection", "rev": false, "en": "We had at least one conversation that wasn't about chores, kids or logistics.", "ru": "У нас был хотя бы один разговор не о быте, детях и делах."},
+    {"id": "cp2", "sub": "connection", "rev": false, "en": "I felt my partner was interested in how my week went.", "ru": "Я чувствовал(а), что партнёру интересно, как прошла моя неделя."},
+    {"id": "cp3", "sub": "connection", "rev": false, "en": "We laughed together.", "ru": "Мы вместе смеялись."},
+    {"id": "cp4", "sub": "connection", "rev": false, "en": "I felt comfortable asking my partner for something I needed.", "ru": "Мне было спокойно попросить партнёра о том, что мне нужно."},
+    {"id": "cp5", "sub": "friction", "rev": false, "en": "Small things turned into arguments.", "ru": "Мелочи превращались в споры."},
+    {"id": "cp6", "sub": "friction", "rev": false, "en": "I held back something I wanted to say to avoid a fight.", "ru": "Я промолчал(а) о том, что хотел(а) сказать, чтобы не было ссоры."},
+    {"id": "cp7", "sub": "friction", "rev": false, "en": "After a disagreement, one of us stayed cold for a long time.", "ru": "После разногласия кто-то из нас долго оставался холодным."},
+    {"id": "cp8", "sub": "friction", "rev": true, "en": "When we disagreed, we managed to make up the same day.", "ru": "Когда мы не соглашались, нам удавалось помириться в тот же день."}
+  ],
+  "reflect": {
+    "en": ["What was the best moment between you this week?", "What is one thing you'd like more of next week?", "Is there a topic you're avoiding? What makes it hard to raise?"],
+    "ru": ["Какой момент между вами был лучшим на этой неделе?", "Чего бы тебе хотелось больше на следующей неделе?", "Есть ли тема, которую ты обходишь? Что мешает её поднять?"]
+  },
+  "links": {
+    "en": [{"title": "All PairClear quizzes", "url": "https://pairclear.com/en/tests/"}],
+    "ru": [{"title": "Все тесты PairClear", "url": "https://pairclear.com/ru/tests/"}]
+  }
+}
