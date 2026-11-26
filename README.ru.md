@@ -1,10 +1,21 @@
+<a href="https://pairclear.github.io/relationship-questionnaires/?lang=ru"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.ru.png">
+  <img alt="PairClear: Опросники об отношениях" src="assets/banner-light.ru.png" width="100%">
+</picture></a>
+
 # Опросники об отношениях: бесплатные, открытые, в браузере
 
 **[Пройти сейчас →](https://pairclear.github.io/relationship-questionnaires/?lang=ru)** · [English](README.md) · [Данные (JSON)](data/questionnaires/) · [Навык для Claude](SKILL.md) · [Проверка лицензий валидированных шкал](docs/licence-check.md)
 
-![7 опросников](https://img.shields.io/badge/опросники-7-2ea44f) ![Работает офлайн](https://img.shields.io/badge/офлайн-да-2ea44f) ![Без слежки](https://img.shields.io/badge/слежка-нет-2ea44f) ![RU + EN](https://img.shields.io/badge/lang-RU%20%7C%20EN-blue) ![CC BY 4.0](https://img.shields.io/badge/тексты-CC%20BY%204.0-lightgrey) [![Сделано PairClear](https://img.shields.io/badge/сделано-PairClear-b85c3c)](https://pairclear.com/ru/?utm_source=github&utm_medium=readme&utm_campaign=relationship-questionnaires)
+![7 опросников](https://img.shields.io/badge/опросники-7-3a362e) ![Работает офлайн](https://img.shields.io/badge/офлайн-да-3a362e) ![Без слежки](https://img.shields.io/badge/слежка-нет-3a362e) ![RU + EN](https://img.shields.io/badge/lang-RU%20%7C%20EN-6b665d) ![CC BY 4.0](https://img.shields.io/badge/тексты-CC%20BY%204.0-8a847a) [![Сделано PairClear](https://img.shields.io/badge/сделано-PairClear-b5613f?labelColor=16150f&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0MCA0MCI%2BPHBhdGggZD0iTTEzIDVDNSAxMyA1IDI3IDEzIDM1TTI3IDVDMzUgMTMgMzUgMjcgMjcgMzUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSI0LjYiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxjaXJjbGUgY3g9IjIwIiBjeT0iMjAiIHI9IjQuNCIgZmlsbD0iI0UwOEE2MyIvPjwvc3ZnPg%3D%3D)](https://pairclear.com/ru/tests/?utm_source=github&utm_medium=readme&utm_campaign=relationship-questionnaires)
 
 > **Саморефлексия, а не диагностика.** Опросники написаны PairClear и в исследованиях не валидированы. Они смотрят на то, что происходит между двумя людьми, а не на чью-то психику, и не могут сказать, что чувствует партнёр. Если ты боишься партнёра, тебе угрожают или тебя контролируют, или есть мысли навредить себе, звони в экстренную службу (112) или найди бесплатную линию помощи на [findahelpline.com](https://findahelpline.com). В России для женщин, пострадавших от насилия: 8-800-7000-600.
+
+## Как это выглядит
+
+<p align="center"><img src="assets/demo.gif" alt="Демонстрация: Опросники об отношениях (пример выдуман, интерфейс на английском)" width="820"></p>
+
+**[Открыть в браузере →](https://pairclear.github.io/relationship-questionnaires/?lang=ru)** Работает без установки, ничего не отправляет.
 
 Семь коротких опросников (от 8 до 11 утверждений) с открытыми данными, правилом подсчёта, которое может проверить каждый, и страницей, которая целиком работает в браузере.
 
@@ -57,6 +68,19 @@
 ## Как помочь
 
 Переводы приветствуются: добавьте ключ языка рядом с `en` и `ru` в каждом JSON и в `T` в `src/template.html`, затем запустите `python3 build.py`. Пожалуйста, сохраняйте тексты о невалидированности и безопасности.
+
+## Другие бесплатные инструменты PairClear
+
+| Репозиторий | Что это |
+|---|---|
+| [16 ассоциаций](https://github.com/pairclear/sixteen-associations) | 16 слов об одной теме, по парам до одного |
+| [Психологические линзы](https://github.com/pairclear/psychology-lenses) | Одна ситуация глазами Фрейда, Юнга, КПТ и ещё 5 школ |
+| [Дневник отношений](https://github.com/pairclear/reflection-journal) | Вопросы после ссоры, перед трудным разговором, раз в неделю |
+| [Мысли после ссоры](https://github.com/pairclear/conflict-thought-diary) | Дневник мыслей (КПТ) для конфликтов в паре |
+| [Я не психотерапевт](https://github.com/pairclear/not-a-therapist) | Правила безопасности для ИИ-чатов об отношениях |
+| [Набор для работы с парами](https://github.com/pairclear/couples-counseling-kit) | Шаблоны, домашние задания и ИИ-промпты для специалистов |
+
+Все инструменты и статьи: [pairclear.com](https://pairclear.com/ru/?utm_source=github&utm_medium=readme&utm_campaign=relationship-questionnaires) · [github.com/pairclear](https://github.com/pairclear)
 
 ## Лицензия
 
