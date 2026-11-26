@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild from source
+        run: python3 build.py
+      - name: Rebuild Pages head tags, sitemap and llms.txt
+        run: python3 scripts/seo_pages.py
+      - name: Generated files are committed
+        run: git diff --exit-code
+      - name: Tests
+        run: python3 -m unittest discover -s tests -p "test_*.py" -v

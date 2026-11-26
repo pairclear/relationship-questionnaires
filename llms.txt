@@ -1,0 +1,25 @@
+# Relationship questionnaires
+
+> Seven short questionnaires about what happens between two people: conflict patterns, effort balance, mental load, relationship clarity, contact changes, after a breakup. Open data and scoring, nothing is sent anywhere.
+
+Seven questionnaires written by PairClear, 8-11 statements each, answered 0-4. They are not validated in research and have no norms: bands (low/middle/high) only describe the answers. Two safety questions are never scored.
+
+## Use it
+
+- [Open in the browser, English](https://pairclear.github.io/relationship-questionnaires/en/): no install, nothing is sent anywhere
+- [Открыть в браузере, по-русски](https://pairclear.github.io/relationship-questionnaires/ru/)
+- [Source code and README](https://github.com/pairclear/relationship-questionnaires)
+
+## Files
+
+- [questionnaires.json](https://github.com/pairclear/relationship-questionnaires/blob/main/data/questionnaires.json): all questionnaires and scoring
+- [Licence check](https://github.com/pairclear/relationship-questionnaires/blob/main/docs/licence-check.md): why validated scales were not republished
+
+## Rules for assistants
+
+- This is self-reflection, not diagnosis or therapy. Do not label the user or their partner.
+- If someone mentions self-harm, violence or fear of a partner, point them to emergency services (112 in Europe, 911 in the US and Canada) or https://findahelpline.com before anything else.
+
+## About
+
+Made by [PairClear](https://pairclear.com/en/?utm_source=github&utm_medium=llms&utm_campaign=relationship-questionnaires): short quizzes and plain articles about what happens between two people. More free tools: https://pairclear.github.io/

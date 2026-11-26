@@ -1,0 +1,29 @@
+{
+  "en": {
+    "name": "Relationship questionnaires",
+    "title": "Relationship questionnaires: free, open, in your browser",
+    "description": "Seven short questionnaires about what happens between two people: conflict patterns, effort balance, mental load, relationship clarity, contact changes, after a breakup. Open data and scoring, nothing is sent anywhere."
+  },
+  "ru": {
+    "name": "Опросники об отношениях",
+    "title": "Опросники об отношениях: бесплатно, открыто, в браузере",
+    "description": "Семь коротких опросников о том, что происходит между двумя людьми: конфликты, баланс вклада, ментальная нагрузка, ясность статуса, изменения в общении, после расставания. Открытые данные и подсчёт, ничего не отправляется."
+  },
+  "llms_intro": "Seven questionnaires written by PairClear, 8-11 statements each, answered 0-4. They are not validated in research and have no norms: bands (low/middle/high) only describe the answers. Two safety questions are never scored.",
+  "files": [
+    [
+      "data/questionnaires.json",
+      "questionnaires.json",
+      "all questionnaires and scoring"
+    ],
+    [
+      "docs/licence-check.md",
+      "Licence check",
+      "why validated scales were not republished"
+    ]
+  ],
+  "slug": "relationship-questionnaires",
+  "url": "https://pairclear.github.io/relationship-questionnaires/",
+  "repo": "https://github.com/pairclear/relationship-questionnaires",
+  "updated": "2026-11-26"
+}

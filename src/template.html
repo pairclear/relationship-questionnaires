@@ -135,7 +135,7 @@ const T = {
   }
 };
 const params = new URLSearchParams(location.search);
-let lang = params.get("lang") || ((navigator.language || "en").toLowerCase().startsWith("ru") ? "ru" : "en");
+let lang = (params.get("lang") || document.documentElement.getAttribute("data-lang")) || ((navigator.language || "en").toLowerCase().startsWith("ru") ? "ru" : "en");
 if (!T[lang]) lang = "en";
 let cur = QS.find(q => q.id === params.get("q")) || null;
 let answers = {}, view = cur ? "quiz" : "list";
